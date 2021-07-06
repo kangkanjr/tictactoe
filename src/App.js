@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
+import Board from './components/Board';
 
 const App = () => {
   return (
-    <>
-    <h1>Welcome to React Parcel Micro App!</h1>
-    <p>Hardest to get more minimal than this React app.</p>
-    <p>Hello! This is your boy KJ!</p>
-  </>
+    <div>
+      <h1>Tic Tac Toe</h1>
+      <Board />
+    </div>
   );
 };
 
